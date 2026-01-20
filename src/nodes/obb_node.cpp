@@ -3,7 +3,7 @@
 
 #include "ros2_yolos_cpp/nodes/obb_node.hpp"
 #include "ros2_yolos_cpp/conversion/obb_converter.hpp"
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 
 namespace ros2_yolos_cpp {
 

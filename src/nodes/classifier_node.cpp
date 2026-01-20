@@ -3,7 +3,7 @@
 
 #include "ros2_yolos_cpp/nodes/classifier_node.hpp"
 #include "ros2_yolos_cpp/conversion/classification_converter.hpp"
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 
 namespace ros2_yolos_cpp {
 

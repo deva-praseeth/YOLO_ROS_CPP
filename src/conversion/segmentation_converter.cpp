@@ -3,7 +3,7 @@
 
 #include "ros2_yolos_cpp/conversion/segmentation_converter.hpp"
 #include "ros2_yolos_cpp/conversion/detection_converter.hpp"
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 
 namespace ros2_yolos_cpp {
 namespace conversion {
