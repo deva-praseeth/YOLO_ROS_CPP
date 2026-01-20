@@ -3,7 +3,11 @@
 
 #include "ros2_yolos_cpp/nodes/segmentor_node.hpp"
 #include "ros2_yolos_cpp/conversion/segmentation_converter.hpp"
+#if __has_include(<cv_bridge/cv_bridge.hpp>)
 #include <cv_bridge/cv_bridge.hpp>
+#else
+#include <cv_bridge/cv_bridge.h>
+#endif
 
 namespace ros2_yolos_cpp {
 

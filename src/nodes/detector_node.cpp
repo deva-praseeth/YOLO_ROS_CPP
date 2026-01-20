@@ -3,7 +3,11 @@
 
 #include "ros2_yolos_cpp/nodes/detector_node.hpp"
 #include "ros2_yolos_cpp/conversion/detection_converter.hpp"
+#if __has_include(<cv_bridge/cv_bridge.hpp>)
 #include <cv_bridge/cv_bridge.hpp>
+#else
+#include <cv_bridge/cv_bridge.h>
+#endif
 #include <chrono>
 
 namespace ros2_yolos_cpp {
