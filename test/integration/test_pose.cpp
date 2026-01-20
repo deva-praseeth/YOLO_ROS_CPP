@@ -7,6 +7,7 @@
 #include <filesystem>
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_lifecycle/lifecycle_node.hpp>
+#include <lifecycle_msgs/msg/state.hpp>
 
 #include "ros2_yolos_cpp/adapters/pose_adapter.hpp"
 #include "ros2_yolos_cpp/nodes/pose_node.hpp"
