@@ -24,9 +24,9 @@
 ## 🎬 Demo
 
 <p align="center">
-  <video src="ezyZip.mp4" controls width="640">
-https://github.com/user-attachments/assets/6cdf0ddd-fc99-47c0-8541-2ee4b63775ae
-  </video>
+  <img src="assets/3.gif" width="240" alt="Pose Estimation">
+  <img src="assets/1.gif" width="240" alt="Object Detection">
+  <img src="assets/2.gif" width="240" alt="Image Segmentation">
 </p>
 ---
 
