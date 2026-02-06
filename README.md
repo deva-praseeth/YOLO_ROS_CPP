@@ -26,19 +26,17 @@
 ## 🎬 Demo
 
 <p align="center">
-  <b>Pose Estimation</b><br>
-  <img src="assets/3.gif" width="260">
+  <div align="center">
+    <b>Pose Estimation</b>&nbsp;&nbsp;&nbsp;
+    <b>Object Detection</b>&nbsp;&nbsp;&nbsp;
+    <b>Image Segmentation</b><br>
+
+    <img src="assets/3.gif" width="260">
+    <img src="assets/1.gif" width="260">
+    <img src="assets/2.gif" width="260">
+  </div>
 </p>
 
-<p align="center">
-  <b>Object Detection</b><br>
-  <img src="assets/1.gif" width="260">
-</p>
-
-<p align="center">
-  <b>Image Segmentation</b><br>
-  <img src="assets/2.gif" width="260">
-</p>
 
 
 ---
