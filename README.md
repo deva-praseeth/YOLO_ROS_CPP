@@ -29,17 +29,17 @@
   <tr>
     <td align="center" style="border:1px solid #ccc">
       <b>Pose Estimation</b><br>
-      <img src="assets/3.gif" width="500">
+      <img src="assets/3.gif" width="360">
     </td>
     <td align="center" style="border:1px solid #ccc">
       <b>Object Detection</b><br>
-      <img src="assets/2.gif" width="500">
+      <img src="assets/2.gif" width="360">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" style="border:1px solid #ccc">
       <b>Image Segmentation</b><br>
-      <img src="assets/3.gif" width="500">
+      <img src="assets/3.gif" width="360">
     </td>
   </tr>
 </table>
