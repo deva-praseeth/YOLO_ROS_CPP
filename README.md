@@ -26,10 +26,20 @@
 ## 🎬 Demo
 
 <p align="center">
-  <img src="assets/3.gif" width="360" alt="Pose Estimation">
-  <img src="assets/1.gif" width="360" alt="Object Detection">
-  <img src="assets/2.gif" width="360" alt="Image Segmentation">
+  <b>Pose Estimation</b><br>
+  <img src="assets/3.gif" width="260">
 </p>
+
+<p align="center">
+  <b>Object Detection</b><br>
+  <img src="assets/1.gif" width="260">
+</p>
+
+<p align="center">
+  <b>Image Segmentation</b><br>
+  <img src="assets/2.gif" width="260">
+</p>
+
 
 ---
 
