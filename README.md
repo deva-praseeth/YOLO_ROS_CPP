@@ -1,4 +1,4 @@
-0<p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/Geekgineer/YOLOs-CPP/main/data/cover.png" alt="ros2_yolos_cpp" width="100%"/>
 </p>
 
