@@ -21,6 +21,32 @@
 
 **ros2_yolos_cpp** brings the blazing speed and unified API of [YOLOs-CPP](https://github.com/Geekgineer/YOLOs-CPP) to the robot operating system. It provides composable, lifecycle-managed nodes for the entire YOLO family (v5, v8, v11, v26, etc.).
 
+---
+
+## 🎬 Demo on Rviz
+
+<table align="center" cellpadding="10">
+  <tr>
+    <td align="center" style="border:1px solid #ccc">
+      <b>Pose Estimation</b><br>
+      <img src="assets/pose.gif" width="400">
+    </td>
+    <td align="center" style="border:1px solid #ccc">
+      <b>Object Detection</b><br>
+      <img src="assets/object.gif" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="border:1px solid #ccc">
+      <b>Image Segmentation</b><br>
+      <img src="assets/segment.gif" width="400">
+    </td>
+  </tr>
+</table>
+
+
+---
+
 ### Key Features
 - **⚡ Zero-Copy Transport**: Optimized for high-throughput image pipelines using `rclcpp::Subscription`.
 - **🔄 Lifecycle Management**: Full support for `configure`, `activate`, `deactivate`, `shutdown` transitions.
@@ -108,6 +134,28 @@ ros2 launch ros2_yolos_cpp classifier.launch.py \
     model_path:=/path/to/yolo11n-cls.onnx \
     labels_path:=/path/to/imagenet.names \
     image_topic:=/camera/image_raw
+```
+
+---
+## 🔄 Nodes Configuration
+
+Replace `<node_name>` with the appropriate name for your task:
+- **Detection**: `/yolos_detector`
+- **Segmentation**: `/yolos_segmentor`
+- **Pose**: `/yolos_pose`
+- **OBB**: `/yolos_obb`
+- **Classification**: `/yolos_classifier`
+
+### 1. Run Nodes
+```bash
+ros2 lifecycle set <node_name> configure
+ros2 lifecycle set <node_name> activate
+```
+
+### 2. Close Nodes
+```bash
+ros2 lifecycle set <node_name> deactivate
+ros2 lifecycle set <node_name> shutdown
 ```
 
 ---
