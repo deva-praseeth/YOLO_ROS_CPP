@@ -43,7 +43,7 @@ def generate_launch_description():
 
     # Composable node container (multi-threaded for async inference)
     container = ComposableNodeContainer(
-        name='yolos_container',
+        name='yolos_container4',
         namespace='',
         package='rclcpp_components',
         executable='component_container_mt',
@@ -51,7 +51,7 @@ def generate_launch_description():
             ComposableNode(
                 package='ros2_yolos_cpp',
                 plugin='ros2_yolos_cpp::YolosDetectorNode',
-                name='yolos_detector',
+                name='yolos_detector4',
                 parameters=[{
                     'model_path': LaunchConfiguration('model_path'),
                     'labels_path': LaunchConfiguration('labels_path'),
