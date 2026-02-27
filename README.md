@@ -89,7 +89,7 @@ source install/setup.bash
 
 ## 🛠️ Usage
 
-This package provides a launch file for each task. You **must** provide paths to your ONNX model and (optionally) labels file.
+This package provides a launch file for each task. You **must** provide paths to your ONNX model (with the help of export_models.py) and (optionally) labels file.
 
 ### 1. Object Detection
 Publishes `vision_msgs/Detection2DArray` with bounding boxes and class IDs.
