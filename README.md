@@ -193,7 +193,9 @@ Run the stack without installing dependencies locally.
 ```bash
 # Build Docker image
 docker build -t ros2_yolos_cpp .
-
+```
+If you want to use CUDA, you have to install the [NVIDIA Container Tollkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) and add `--gpus all`.
+```
 # Run with GPU support
 docker run --gpus all -it --rm \
     -v /path/to/models:/models \
