@@ -77,10 +77,11 @@ rosdep update && rosdep install --from-paths src --ignore-src -y
 
 # Install ONNX Runtime
 chmod +x build.sh
-./build.sh 1.16.3 1 #onnx version 1.16.3 corresponding to to nvcc --version (cuda 11.8) | 1 for GPU
+./build.sh 1.16.3 1 #onnx version 1.16.3 corresponding to to nvcc --version (cuda 11.8) | 1 for GPU 
 
 # Build (Release mode recommended for performance)
-colcon build --packages-select ros2_yolos_cpp --cmake-args -DCMAKE_BUILD_TYPE=Release #add -DENABLE_GPU=ON for GPU support
+# Add -DENABLE_GPU=ON below and ensure ENABLE_GPU is ON under Build Options in CMakeLists.txt for GPU support
+colcon build --packages-select ros2_yolos_cpp --cmake-args -DCMAKE_BUILD_TYPE=Release
 source install/setup.bash
 ```
 
